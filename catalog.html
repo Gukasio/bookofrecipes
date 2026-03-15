@@ -16,6 +16,7 @@
             <div class="navbar-nav flex-row gap-4">
                 <a class="nav-link" href="index.html">Главное меню</a>
                 <a class="nav-link" href="catalog.html">Каталог Рецептов</a>
+                <a class="nav-link text-warning" href="cartrecipes.html">Корзина (<span id="cart-count">0</span>)</a>
             </div>
         </div>
     </nav>
@@ -31,6 +32,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Шашлык Сочнейший</h5>
                         <a href="recipe_shash.html" class="btn btn-outline-info mt-auto">Смотреть рецепт</a>
+                        <button class="btn btn-success mt-2" onclick="addToCart('Шашлык Сочнейший')">В корзину</button>
                     </div>
                 </div>
             </div>
@@ -41,6 +43,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Баклажановые рулетики</h5>
                         <a href="recipe_bakl.html" class="btn btn-outline-info mt-auto">Смотреть рецепт</a>
+                        <button class="btn btn-success mt-2" onclick="addToCart('Баклажановые рулетики')">В корзину</button>
                     </div>
                 </div>
             </div>
@@ -51,6 +54,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Толма</h5>
                         <a href="recipe_tolma.html" class="btn btn-outline-info mt-auto">Смотреть рецепт</a>
+                        <button class="btn btn-success mt-2" onclick="addToCart('Толма')">В корзину</button>
                     </div>
                 </div>
             </div>
@@ -61,6 +65,6 @@
     <footer class="container text-center mt-5 py-3 border-top border-secondary">
         <small class="text-white-50">© Все права защищены</small>
     </footer>
-
+    <script src="cartrecipes.js"></script>
 </body>
 </html>
