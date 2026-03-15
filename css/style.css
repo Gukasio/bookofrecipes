@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(59, 61, 61);
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: rgb(235, 235, 240);
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  gap: 16px;
+}
+
+header a {
+  color: rgb(49, 200, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(255, 158, 47);
+  text-decoration: underline;
+}
+
+main h2 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgb(255, 247, 240);
+  padding: 8px 15px;
+  border-radius: 6px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.recipe-section-title {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 247, 240);
+  padding: 8px 15px;
+  border-radius: 6px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.short-description {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+  margin-bottom: 18px;
+}
+
+.full-description {
+  color: rgb(210, 210, 210);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  background-color: rgb(38, 44, 43);
+  padding: 12px;
+  border-left: 4px solid rgb(255, 210, 160);
+  border-radius: 8px;
+}
+
+.characteristics {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: rgb(34, 39, 38);
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px dashed rgb(120, 120, 140);
+  font-family: Georgia, serif;
+}
+
+.characteristics li {
+  margin: 7px 0;
+}
+
+.characteristics li::before {
+  content: "🍴";
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+main img {
+  border: 2px solid rgb(110, 110, 130);
+  border-radius: 10px;
+}
