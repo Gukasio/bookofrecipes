@@ -1,0 +1,5 @@
+2026-04-26 10:08:59 | ip=::1 | login=фвьащца | action=FAIL_LOGIN
+2026-04-26 10:09:17 | ip=::1 | login=admin | action=SUCCESS_LOGIN
+2026-04-26 10:09:41 | ip=::1 | login=admin | action=LOGOUT
+2026-04-26 10:15:56 | ip=::1 | login=роорои | action=FAIL_LOGIN
+2026-04-26 10:17:41 | ip=::1 | login=admin | action=SUCCESS_LOGIN
